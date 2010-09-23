@@ -37,8 +37,8 @@ function etiquetags_editor(){
 		wp_deregister_script( 'quicktags' );
 		echo '<script language="javascript" type="text/javascript" >
 			var et_baseurl = "' .  get_option('siteurl')  . '"; //Your blog URL
-			var et_IconDir = "' .  get_option('siteurl')  . '/wp-content/plugins/etiquetags20/iconos/";  //Icons Directory. </script>' ;
-		echo '<script language="javascript" type="text/javascript" src="' . get_option('siteurl') . '/wp-content/plugins/etiquetags20/etiquetags.js"></script>';
+			var et_IconDir = "' .  get_option('siteurl')  . '/wp-content/plugins/myetiquetags/iconos/";  //Icons Directory. </script>' ;
+		echo '<script language="javascript" type="text/javascript" src="' . get_option('siteurl') . '/wp-content/plugins/myetiquetags/etiquetags.js"></script>';
 }
 
 add_action('admin_head', 'etiquetags_editor');
